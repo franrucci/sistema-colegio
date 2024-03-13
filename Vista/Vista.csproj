@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1704D521-70AF-423C-9FE6-59D9DC3EE11B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Vista</RootNamespace>
+    <AssemblyName>Vista</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAgregarTrimestre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarTrimestre.Designer.cs">
+      <DependentUpon>FormAgregarTrimestre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlumnos.Designer.cs">
+      <DependentUpon>FormAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAsistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAsistencias.Designer.cs">
+      <DependentUpon>FormAsistencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalificacionesTrimestre1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalificacionesTrimestre1.Designer.cs">
+      <DependentUpon>FormCalificacionesTrimestre1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalificacionesTrimestre2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalificacionesTrimestre2.Designer.cs">
+      <DependentUpon>FormCalificacionesTrimestre2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalificacionesTrimestre3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalificacionesTrimestre3.Designer.cs">
+      <DependentUpon>FormCalificacionesTrimestre3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEliminarTrimestre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEliminarTrimestre.Designer.cs">
+      <DependentUpon>FormEliminarTrimestre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExamenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExamenes.Designer.cs">
+      <DependentUpon>FormExamenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInformacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInformacion.Designer.cs">
+      <DependentUpon>FormInformacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInicio.Designer.cs">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMateriasAdeudadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMateriasAdeudadas.Designer.cs">
+      <DependentUpon>FormMateriasAdeudadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificarAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificarAsistencia.Designer.cs">
+      <DependentUpon>FormModificarAsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificarExamen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificarExamen.Designer.cs">
+      <DependentUpon>FormModificarExamen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificarTrimestre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificarTrimestre.Designer.cs">
+      <DependentUpon>FormModificarTrimestre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistrarAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrarAsistencia.Designer.cs">
+      <DependentUpon>FormRegistrarAsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistrarExamen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrarExamen.Designer.cs">
+      <DependentUpon>FormRegistrarExamen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTrimestres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrimestres.Designer.cs">
+      <DependentUpon>FormTrimestres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAgregarTrimestre.resx">
+      <DependentUpon>FormAgregarTrimestre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlumnos.resx">
+      <DependentUpon>FormAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAsistencias.resx">
+      <DependentUpon>FormAsistencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalificacionesTrimestre1.resx">
+      <DependentUpon>FormCalificacionesTrimestre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalificacionesTrimestre2.resx">
+      <DependentUpon>FormCalificacionesTrimestre2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalificacionesTrimestre3.resx">
+      <DependentUpon>FormCalificacionesTrimestre3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEliminarTrimestre.resx">
+      <DependentUpon>FormEliminarTrimestre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExamenes.resx">
+      <DependentUpon>FormExamenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInformacion.resx">
+      <DependentUpon>FormInformacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInicio.resx">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMateriasAdeudadas.resx">
+      <DependentUpon>FormMateriasAdeudadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificarAsistencia.resx">
+      <DependentUpon>FormModificarAsistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificarExamen.resx">
+      <DependentUpon>FormModificarExamen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificarTrimestre.resx">
+      <DependentUpon>FormModificarTrimestre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrarAsistencia.resx">
+      <DependentUpon>FormRegistrarAsistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrarExamen.resx">
+      <DependentUpon>FormRegistrarExamen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrimestres.resx">
+      <DependentUpon>FormTrimestres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controladora\Controladora.csproj">
+      <Project>{b461bca9-8192-4e5e-a8f7-3d95e1f1257f}</Project>
+      <Name>Controladora</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{7f82e8c3-009f-4c25-a461-6b7ccb76576b}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
