@@ -1,3 +1,6 @@
+Este sistema fue desarrollado para la materia Programación Orientada a Objetos. Su estructura no 
+está relacionada con una base de datos, sino que, en su lugar, utiliza repositorios dentro del programa.
+
 En este sistema se podrán gestionar las calificaciones, asistencias de cada alumno del colegio y 
 se podrá ver información como: grado al que cursa, promedio de asistencia por trimestre, 
 calificaciones por materia en cada trimestre, promedio anual final, materias adeudadas y 
